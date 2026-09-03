@@ -289,15 +289,22 @@ git clone https://github.com/yourusername/csc-teaching-notes.git
 
 ---
 
-## 👤 Author Information
+## 👤 About the Author
 
-**Created by:** Mohanraj R  
-**Organization:** CSC (Computer Science Club)  
-**Location:** Chennai, Tamil Nadu, India  
-**Purpose:** Educational teaching materials and student reference  
-**Created:** 2024-2026  
+**Created by:** Mohanraj R.
+**Brand:** Chennai Coder
+**Location:** Chennai, Tamil Nadu, India
+**Purpose:** Programming education, teaching resources, and student learning materials
+
+### Chennai Coder
+
+**Chennai Coder** provides beginner-friendly programming education through practical learning, live classes, coding examples, and real-world projects.
+
+🌐 **Learn more and join live classes:**
+https://chennai-coder.vercel.app/
 
 ---
+
 
 ## 📝 Usage Rights & Attribution
 
