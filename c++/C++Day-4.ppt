@@ -1,0 +1,112 @@
+//Returning Values from class's  Memeber Function to main()
+function
+
+#include<iostream>
+using namespace std;
+class rectangle
+{
+private :
+	int length,breadth,area;
+public :
+	void setdata(int a,int b)
+	{
+                    length=a;
+                    breadth=b;
+	}
+int calculate()
+	{
+        return length*breadth;
+	}
+};
+void main()
+{
+rectangle r;
+int area;
+r.setdata(5,8);
+area=r.calculate();
+cout<<endl<<" Area is :"<<area;
+return 0;
+}
+
+
+/*FRIEND FUNCTIONS
+`````````````````
+To access the private member of the class inside the friend
+function the object of the class   should be passed as an
+argument to the function.*/
+
+/*#include<iostream>
+using namespace std;
+class second;
+class first
+{
+private :
+	int no;
+public:
+	first(int n);
+    friend int add(first,second);
+};
+class second
+{
+private :
+	int n1;
+public:
+	second(int);
+    friend int add(first,second);
+};
+
+first ::first(int n)
+ {
+ no=n;
+  }
+second ::second(int n)
+{
+n1=n;
+}
+
+int add(first f,second s)
+{
+cout<<"First class="<<f.no<<endl;
+cout<<"Second class=“ <<s.n1;
+return f.no+s.n1;
+}
+int main()
+{
+first f(10);
+second s(20);
+cout<<"\n The Result is "<<add(f,s);
+return 0;
+}*/
+/*FRIEND CLASS
+````````````
+The private members of one class can be accessed from the
+member functions Of another class by making them as friends*/
+
+/*#include<iostream>
+using namespace std;
+class second;
+class first
+{
+private :
+	int no;
+public:
+	friend class second;
+	first(int n)
+	{
+no=n;
+}};
+class second
+{
+public:
+	void show(first f)
+	{
+	cout<<f.no;
+	}
+};
+int main()
+{
+first f(10);
+second s;
+s.show(f);
+return 0;
+}*/
